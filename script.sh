@@ -1,6 +1,7 @@
 # ECHO COMMAND
+cd pwd
 echo "This script is made by github.com/NobinKhan"
-GITLINK = "https://github.com/NobinKhan/react_Project_setup_script.git"
+GITLINK="https://github.com/NobinKhan/react_Project_setup_script.git"
 git clone $GITLINK
 read -p "Enter your React Project Name: " PROJECTNAME
 npx create-react-app $PROJECTNAME
