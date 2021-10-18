@@ -10,9 +10,9 @@ yarn add -D prettier
 yarn add -D babel-eslint
 npx install-peerdeps --dev eslint-config-airbnb
 yarn add -D eslint-config-prettier eslint-plugin-prettier
-cp ../.eslintrc .
-cp ../.env .
-cp -R ../.vscode .
+cp ../react_Project_setup_script/.eslintrc .
+cp ../react_Project_setup_script/.env .
+cp -R ../react_Project_setup_script/.vscode .
 yarn upgrade -R eslint
 echo "
    Before run This project You need to open and save 
@@ -25,7 +25,7 @@ echo "
 "
 code .
 cd ../
-rm -rf reactscript.sh .env .eslintrc .vscode
+rm -rf react_Project_setup_script/ script.sh
 
 # yarn upgrade -r eslint
 # yarn start
